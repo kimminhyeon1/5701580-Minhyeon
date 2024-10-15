@@ -1,2 +1,2 @@
 # SortByHeap {Result Image}
-![](./6-sortbyheap,png)
+![](./6-sortbyheap.png)
