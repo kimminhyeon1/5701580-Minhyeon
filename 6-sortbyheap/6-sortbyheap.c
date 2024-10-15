@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX_ELEMENT 200
@@ -55,7 +54,7 @@ void BuildMaxHeapAndSort(int inputData[], int n) {
 	for (int i = n - 1; i > 0; i--) {
 		// 루트와 마지막 요소 교환
 		swap(&h.heap[1], &h.heap[h.heap_size]);
-		h.heap_size--;
+		h.heap_size--;//마지막 요소는 힙에서 제외
 
 		// 힙 재정렬
 		int parent = 1;
