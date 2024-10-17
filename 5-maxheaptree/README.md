@@ -1,4 +1,4 @@
-#MAX Heap Tree {Result Image}
+# MAX Heap Tree {Result Image}
 
 ![](./삽입함수.png)
 
