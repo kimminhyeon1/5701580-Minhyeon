@@ -1,2 +1,2 @@
-# Graph_DFS_BFS {Result Image}
+# Graph_DFS&BFS {Result Image}
 ![](./7-dfsbfs.png)
