@@ -1,2 +1,2 @@
-# Result Image {Graph DFS, BFS}
+# Graph DFS, BFS {Result Image}
 ![](./7-dfsbfs.png)
