@@ -69,7 +69,7 @@ void insert_edge(GraphType* g, int start, int end, int weight) {
     g->adj_list[start] = newNode;
 }
 
-// 최소 히프 트리 초기화
+// 최소 히프 트리 생성
 HeapType* create_min_heap() {
     HeapType* h = (HeapType*)malloc(sizeof(HeapType));
     h->size = 0;  // 히프 크기 초기화
