@@ -3,7 +3,7 @@
 
 #define TRUE 1
 #define FALSE 0
-#define MAX_VERTICES 1000
+#define MAX_VERTICES 100
 #define INF 100000
 
 // 인접 리스트의 노드 구조체
