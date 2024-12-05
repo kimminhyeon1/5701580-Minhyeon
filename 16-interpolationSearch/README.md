@@ -3,7 +3,7 @@
 ![](./16-interpolationSearch2.png)
 ![](./16-interpolationSearch3.png)
 
-## Interpolation Search가 Binary Search보다 적게 비교하는 이유
+### Interpolation Search가 Binary Search보다 적게 비교하는 이유
 
 이진 탐색은 탐색 구간을 절반으로 줄여나가는 분할 방식을 사용하는데 이 방식은 탐색 구간의 크기를 고려하지 않고 항상 중앙에서 분할하므로 데이터의 분포와 상관없이 일정한 탐색 경로를 가지게 됩니다.
 허나 보간 탐색은 탐색 구간의 크기를 고려한 선형 보간법 계산을 통해서 찾으려는 값의 상대적인 위치를 계산하여 찾고자 하는 값이 존재할 가능성이 높은 위치를 바로 선택합니다.
