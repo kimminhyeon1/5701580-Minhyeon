@@ -39,10 +39,10 @@ Node* deleteBST(Node* root, int value) {
     }
 
     // 값 비교 
-    if (value < root->value) { // 삭제하려는 값
+    if (value < root->value) { // 삭제하려는 값이 루트 값보다 작을 때
         root->left = deleteBST(root->left, value);
     }
-    else if (value > root->value) {
+    else if (value > root->value) { // 삭제하려는 값이 루트 값보다 클 때
         root->right = deleteBST(root->right, value);
     }
     else { // 삭제할 노드를 찾음
@@ -71,18 +71,18 @@ Node* deleteBST(Node* root, int value) {
 
 // 이진 트리 탐색하는 함수
 Node* searchBST(Node* root, int value) {
-    compareCount++;
+    compareCount++; // 비교 횟수 증가
     if (root == NULL || root->value == value) {
-        return root;
+        return root; // 값을 찾았거나 트리가 비었을 경우 반환
     }
     if (value < root->value) {
-        compareCount++;
-        return searchBST(root->left, value);
+        compareCount++; // 비교 횟수 증가
+        return searchBST(root->left, value); // 왼쪽 서브트리 탐색
         
     }
     else {
-        compareCount++;
-        return searchBST(root->right, value);
+        compareCount++; // 비교 횟수 증가
+        return searchBST(root->right, value); // 오른쪽 서브트리 탐색
     }
 }
 
